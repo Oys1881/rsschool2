@@ -40,4 +40,5 @@ I dont have
 English B1
 
 ## Projects
-I dont have
+* [CV](https://Oys1881.github.io/rsschool-cv/ "CV")
+* [cssBayan](https://Oys1881.github.io/cssBayan/cssBayan "cssBayan")
