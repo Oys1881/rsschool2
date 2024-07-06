@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: PT Sans, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 700;
+    
+    color: black;
+    background-color: #0000;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*---header---*/
+
+.button {
+    padding: 25px 20px;
+    display: block;
+    text-align: center;
+    
+    color: #fff;
+    background-color: black;
+    border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: rgb(102, 105, 105);
+}
+.main_header {
+    background-color: black;
+
+    margin-bottom: 30px;
+}
+
+.main_navigation {
+    margin: 0px;
+    padding: 0px;
+    color: #0000;
+}
+
+.site_navigation {
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1440px;
+    
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+/*----body----*/
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.conteiner_left {
+    width: 40%;
+    padding-bottom: 30px;
+}
+.conteiner_left {
+    color: rgb(240, 238, 233);
+    background-color: black;
+}
+
+.container_right {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.name {
+    margin-top: 70px;
+}
+
+.name h1 {
+    margin-bottom: 30px;
+    padding-left: 100px;
+    font-size: 50px;
+}
+
+.name p {
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+
+.name img {
+    width: 100%;
+}
+
+.about_me {
+    margin-bottom: 50px;
+}
+
+.about_me h2 {
+    padding-left: 100px;
+}
+
+.about_me p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contacts {
+    position: relative;
+}
+
+.contacts h2 {
+    padding-left: 100px;
+}
+
+.contacts ul {
+    margin-left: 55px;
+}
+
+.contacts_list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.contacts::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    
+    width: 300px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.skills {
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.skills_list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.education {
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.education_list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.code_example {
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.experience {
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.language {
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.language_list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.projects {
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.projects_list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.projects a {
+    color: rgb(0, 0, 0);
+}
+
+.code_example::before,
+.education::before,
+.skills::before,
+.experience::before,
+.language::before,
+.projects::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    
+    width: 300px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+}
+
+/*----footer----*/
+
+.main_footer {
+    margin-top: 30px;
+}
+
+.git {
+    width: 32px;
+}
+
+.main_footer {
+    color: #fff;
+    background-color: black;
+}
+
+.footer_wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_button {  
+    text-align: center;
+    vertical-align: middle;
+    
+    color: #fff;
+    background-color: black;
+    border: none;
+}
+
+@media (max-width: 1000px) {
+    .conteiner {
+        flex-direction: column;
+    }
+    .conteiner_left {
+        width: 100%;
+    }
+    .name h1 {
+        padding-left: 300px;
+    }
+    
+    .name p {
+        padding-left: 300px;
+    }
+    
+    .about_me h2 {
+        padding-left: 400px;
+    }
+    
+    .about_me p {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .contacts h2 {
+        padding-left: 400px;
+    }
+    
+    .contacts ul {
+        margin-left: 200px;
+    }
+}
